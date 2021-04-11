@@ -1,10 +1,4 @@
-// Copyright (c) 2021 Lucas Becker
-// STUDENT: Lucas Becker
-// PROFESSOR: Eric Grigori
-// CLASS: CS-210-T4249 Programming Languages
-// TERM: 21EW4
-// ASSIGNMENT: Project 2
-// FILE: main.cpp
+// Copyright © 2021 Lucas Becker
 
 #include <exception>
 #include <iostream>

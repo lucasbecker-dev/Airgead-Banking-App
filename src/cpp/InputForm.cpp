@@ -1,15 +1,10 @@
-// Copyright (c) 2021 Lucas Becker
-// STUDENT: Lucas Becker
-// PROFESSOR: Eric Grigori
-// CLASS: CS-210-T4249 Programming Languages
-// TERM: 21EW4
-// ASSIGNMENT: Project 2
-// FILE: InputForm.cpp
+// Copyright © 2021 Lucas Becker
 
 #include "../headers/InputForm.h"
 
 #include <exception>
 #include <iostream>
+#include <map>
 #include <memory>
 
 
@@ -41,7 +36,7 @@ std::unique_ptr<UserData> InputForm::getInput() {
   for (int i = 0; i < m_menuOptionsVec->size(); ++i) {
     std::cout << m_menuOptionsVec->at(i);
     std::cin >> input;
-    userInputMap->insert_or_assign((UserData::Types)i, input);
+    userInputMap->insert_or_assign(static_cast<UserData::Types>(i), input);
   }
 
   UserData newUserData(std::move(userInputMap));

@@ -1,10 +1,4 @@
-// Copyright (c) 2021 Lucas Becker
-// STUDENT: Lucas Becker
-// PROFESSOR: Eric Grigori
-// CLASS: CS-210-T4249 Programming Languages
-// TERM: 21EW4
-// ASSIGNMENT: Project 2
-// FILE: InterestCalc.h
+// Copyright © 2021 Lucas Becker
 
 #ifndef SRC_HEADERS_INTERESTCALC_H_
 #define SRC_HEADERS_INTERESTCALC_H_
